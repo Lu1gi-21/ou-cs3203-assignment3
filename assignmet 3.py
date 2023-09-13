@@ -39,6 +39,8 @@ def main():
 	
 	print(rv)
 
+	print("Hello world")
+	
 
 
 
