@@ -12,10 +12,11 @@ def prod_list(x):
 	return prod 
 
 def rev_list(x):
-	t = x.reverse()
+	t = x
+	t.reverse()
 	return t 
 
-	
+
 
 
 def main():
@@ -29,11 +30,15 @@ def main():
 
 	sm = sum_list(lst)
 	pd = prod_list(lst)
+	rv = rev_list(lst)
+
 
 	print("sum: " + str(sm))
 	print("prod: " + str(pd))
 	print("Hello world")
 	
+	print(rv)
+
 
 
 
