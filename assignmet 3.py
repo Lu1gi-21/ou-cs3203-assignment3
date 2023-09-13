@@ -25,6 +25,8 @@ def main():
 
 	print("sum: " + str(sm))
 	print("prod: " + str(pd))
+	print("Hello world")
+	
 
 
 
