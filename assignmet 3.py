@@ -1,15 +1,33 @@
 def sum_list(x):
-	sum = 0
+	sm = 0
 	for y in x:
-		sum = sum + y 
-	return sum 
+		sm = sm + y 
+	return sm 
  
 
 def prod_list(x):
-	prod = 0
+	prod = 1
 	for y in x:
 		prod = prod * y
 	return prod 
+
+def main():
+	lst = []
+
+	n = int(input("Enter number of elements :"))
+
+	for i in range(0, n):
+		ele = int(input())
+		lst.append(ele)
+
+	sm = sum_list(lst)
+	pd = prod_list(lst)
+
+	print("sum: " + str(sm))
+	print("prod: " + str(pd))
+
+
+
 
 
 
