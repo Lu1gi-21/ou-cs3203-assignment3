@@ -11,6 +11,13 @@ def prod_list(x):
 		prod = prod * y
 	return prod 
 
+def rev_list(x):
+	t = x.reverse()
+	return t 
+
+	
+
+
 def main():
 	lst = []
 
